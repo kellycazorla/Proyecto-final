@@ -1,0 +1,233 @@
+
+@import url("https://fonts.googleapis.com/css2? family= Lato & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+
+}
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-tecnologia-blanca-futurista_23-2148390336.jpg?size=626&ext=jpg&ga=GA1.2.1899543418.1687652521&semt=ais);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+/* desktop 
+@media (min-width: 1024px) {
+    #inicio {
+    flex-direction: row;
+    }
+    }*/
+@media (max-width:480px){
+main {
+    width:90%;
+}}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+a:hover {
+background:rgba(49, 154, 178, 0.3) ;
+transition: background-color 0.3s;
+}
+a.active {
+    transition: background-color 0.3s;  
+}
+.clicked {
+    background-color: #6e55d4;
+    border-radius: 10px;
+}
+
+main {
+    width: 80%;
+    max-width: 1024px;
+    margin: auto;
+}
+
+h1{ font-size: 48px;
+    color:#6e55d4}
+p{ font-size: 18px;
+    line-height: 1.2;}
+h2{ font-size: 32px;
+    color:#6e55d4}
+button{ font-size: 20px;}
+
+
+.info {
+    text-align: center;
+
+}
+
+.container {
+    position: fixed;
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    height: 90px;
+    width: 100%;
+    background-color:#9e88f4;
+}
+
+.container img{
+    padding: 0%;
+    margin: 0%;
+    height: 100px;
+    width: 130px;
+    border-radius: 0%;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+img {
+    display: flex;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0px;
+    padding-top: 0px;  
+    height: 90px;
+}
+
+.container a{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 20px;
+    text-align: center;
+    justify-items: right;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.3em;
+    height: 90px;
+}
+
+.logo{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+}
+
+#inicio {
+    display: flex;
+    min-height: 100vh;
+    max-width: 80%;
+    padding-left: 50px ;
+    padding-top: 100px;
+}
+
+#inicio img {
+    width: 50vw;
+    height: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 12vw;
+
+}
+
+.info {
+    text-align:center;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 20px;
+    display:inline-block;
+}
+
+
+ .info p{
+    padding: 10px;
+    color:#0f0f0f;
+    justify-content: center;
+    text-align: justify;
+    left: 50px;
+    background-color: #cdd4d7 ;
+    border-radius: 10px;
+}
+button {
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:  #6e55d4 ;
+    color: whitesmoke;
+    font-size: 1.3em;
+    border-style: none;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    min-height: 100vh;
+    max-width: 80%;
+}
+
+.hablemos {
+    background-color: #cdd4d7 ;
+    border-radius: 10px;
+    color:#0f0f0f;
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 120px ;
+
+}
+
+.hablemos p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#0f0f0f;
+}
+
+
+.redes{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-left: 100px;
+ max-width: 80%;
+
+}
+
+.redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+.redes img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+
+}
+footer{
+    height: 90px;
+    background-color: #9e88f4;
+    color:whitesmoke;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
